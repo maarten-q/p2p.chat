@@ -68,10 +68,7 @@ export default class Home extends React.Component {
         <Header />
         <Hero />
         <CreateRoom onCreateRoom={this.handleCreateRoom.bind(this)} />
-        <Social />
         <HowItWorks />
-        <Features />
-        <Footer />
       </div>
     )
   }

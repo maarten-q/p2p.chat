@@ -4,8 +4,8 @@ export default (props) => {
 
   return (
     <div className='container hero'>
-      <h1>No-nonsense video calls.</h1>
-      <h5>No logins. No tracking. Free forever.</h5>
+      <h1>Private Secure Video Conferences.</h1>
+      <h5>Free forever. <a href="https://github.com/maarten-q/p2p.chat" target="_blank">Open-Source</a>. Made with love.</h5>
     </div>
   )
 

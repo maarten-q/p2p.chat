@@ -12,7 +12,7 @@ export default (props) => {
             <div className='feature'>
               <div className='feature-title'>Create a room</div>
               <PlusSquare size={35} />
-              <div className='feature-text'>Choose a human-readable room name, such as the purpose of the meeting.</div>
+              <div className='feature-text'>Choose a room name, such as the purpose of the meeting.</div>
             </div>
           </div>
           <div className='four columns'>
