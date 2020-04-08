@@ -60,7 +60,7 @@ export default class CreateRoom extends React.Component {
         <form onSubmit={(e) => {e.preventDefault(); this.onCreateRoom(roomValue)}}>
           <input
             type='text'
-            placeholder='e.g. engineering standup'
+            placeholder='e.g. family meetup'
             value={this.state.roomValue}
             onChange={evt => this.onChange(evt)}
             required
